@@ -1,10 +1,6 @@
-
 #   ---=== stoneship ===---
 #  like a ship made from stone
 #     this shall surely sink
-
-# instructions used in this implementation are chosen to have simple encodings. 
-# complex addressing modes, as well as the upper 8 registers are not used.
 
 #              --- elf header ---
 7f 45 4c 46             # EI_MAG          -> '\x7fELF'
@@ -152,5 +148,3 @@
     b0 3c                   # mov al, 60        (sys_exit)
     48 31 ff                # xor rdi, rdi
     0f 05                   # syscall
-
-
