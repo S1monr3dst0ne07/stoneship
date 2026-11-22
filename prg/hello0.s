@@ -1,6 +1,6 @@
 
 # --- hello world in level zero stoneship ---
-# stoneship will directly product the output string "hello world"
+# stoneship will directly produce the output string "hello world"
 # and write it into a file. it will not product a program which
 # prints hello world. `hello1.s` does that.
 

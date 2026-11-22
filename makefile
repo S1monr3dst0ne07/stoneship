@@ -1,8 +1,8 @@
 
 
 run: boot
-	./stsh prg/hello0.s hello0.txt
-	cat hello0.txt
+	./stsh prg/hello1.s hello1
+	./hello1
 
 dis: preboot
 	dd if=stsh0 of=tmp.bin bs=1 skip=120
